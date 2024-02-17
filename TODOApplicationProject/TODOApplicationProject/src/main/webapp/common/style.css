@@ -1,0 +1,54 @@
+@charset "UTF-8";
+
+div {
+	text-align:center;
+	padding: 3px;
+	background-color: DarkSalmon;
+	color: black;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #f1f1f1;
+}
+li {
+  float: left;
+}
+li a {
+  text-align: center;
+  text-decoration: none;
+  color: black;
+  display: inline-block;
+  padding: 20px 20px;
+  font-size: 20px;
+}
+li a:hover {
+  background-color: #555;
+  color: white;
+}
+.button {
+  background-color:#04AA6D;
+  width: 10%;
+  border-radius:20px;
+}
+.button a {
+  color: white;
+  padding: 10px 22px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 15px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+footer {
+  text-align: center;
+  padding: 0px;
+  width: 100%;
+  background-color: rgb(240, 240, 240, 0.5);
+  color: black;
+  position: absolute;
+  bottom: 0%;
+}
